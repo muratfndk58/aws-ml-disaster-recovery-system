@@ -1,0 +1,20 @@
+{
+  "region": "eu-central-1",
+  "eip_allocation_id": "REPLACE_ME",
+  "blue_tag_key": "role",
+  "blue_tag_value": "blue",
+  "restore_ok_flag": "/var/run/restore_ok",
+  "ready_timeout_seconds": 600,
+  "backup_paths": [
+    "/home/ubuntu/app",
+    "/etc/nginx/nginx.conf",
+    "/var/log"
+  ],
+  "instance_type": "t3.micro",
+  "key_name": "REPLACE_ME",
+  "security_group_ids": [
+    "REPLACE_ME"
+  ],
+  "subnet_id": "REPLACE_ME",
+  "iam_instance_profile": "REPLACE_ME"
+}

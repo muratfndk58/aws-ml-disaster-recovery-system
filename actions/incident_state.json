@@ -1,0 +1,11 @@
+{
+  "incident_active": false,
+  "snapshot_id": null,
+  "failover_in_progress": false,
+  "failed_over": false,
+  "active_instance": "blue",
+  "critical_latched": false,
+  "last_failover_time": null,
+  "last_error": null,
+  "green_instance_id": null
+}
